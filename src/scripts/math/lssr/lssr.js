@@ -1,10 +1,10 @@
 export const lssr = (a, b, x , operation)=>{
     let yhat;
-    if(operation === "plus"){
+    if(operation === "add"){
         yhat = a + (b * x)
-    }else if(operation === "minus"){
+    }else if(operation === "subtract"){
         yhat = a - (b * x)
     }
-    document.getElementById("lssr-answer").value = yhat
+    return yhat
     
 }
