@@ -1,10 +1,15 @@
 header{
     background: linear-gradient(#50c5ff, white);
     text-align: center;
+    box-sizing: border-box;
+    margin: 0px;
 
 }
 header h1{
     font-size: 40pt;
     color: #fff;
     text-shadow: 0px 0px 5px black;
+}
+header button{
+    box-shadow: 0px 4px 5px black;
 }

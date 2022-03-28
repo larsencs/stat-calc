@@ -85,23 +85,23 @@ document.addEventListener('DOMContentLoaded', () =>{
 
         }
         if(event.target.id === 'stdDev-close-btn'){
-            const removeTarget = document.querySelector(".stdDev-form")
+            const removeTarget = document.querySelector("#stdDev-form")
             removeTarget.parentNode.removeChild(removeTarget)
         }
         if(event.target.id === 'slope-close-btn'){
-            const removeTarget = document.querySelector(".slope-form")
+            const removeTarget = document.querySelector("#slope-form")
             removeTarget.parentNode.removeChild(removeTarget)
         }
         if(event.target.id === 'lssr-close-btn'){
-            const removeTarget = document.querySelector(".lssr-form")
+            const removeTarget = document.querySelector("#lssr-form")
             removeTarget.parentNode.removeChild(removeTarget)
         }
         if(event.target.id === 'events-close-btn'){
-            const removeTarget = document.querySelector(".events-form")
+            const removeTarget = document.querySelector("#events-form")
             removeTarget.parentNode.removeChild(removeTarget)
         }
         if(event.target.id === 'zscore-close-btn'){
-            const removeTarget = document.querySelector(".zscore-form")
+            const removeTarget = document.querySelector("#zscore-form")
             removeTarget.parentNode.removeChild(removeTarget)
         }
 
